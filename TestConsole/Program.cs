@@ -10,12 +10,15 @@ namespace TestConsole
     {
         static void Main(string[] args)
         {
+            // Call configuration
+            Configurate();
         }
 
         static void Configurate()
         {
             Console.WriteLine("We configure our system here...");
             Console.WriteLine("Init section");
+            Console.WriteLine("Finalization section");
         }
     }
 }
